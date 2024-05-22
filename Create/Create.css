@@ -1,0 +1,99 @@
+/* .conteiner {
+  background-color: lightcoral;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  height: 100vh;
+} */
+
+
+.main {
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-content: stretch;
+  flex-basis: auto;
+  align-items: center;
+}
+
+.main form {
+  font-family: “Segoe UI”, arial, sans-serif;
+  background-color: #fff;
+  opacity: 91%;
+  border-radius: 2%;
+  border: 3px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 26%;
+  height: auto;
+  flex-direction: column;
+  padding: 55px;
+}
+main .info {
+  font-family: “Segoe UI”, arial, sans-serif;
+  background-color: lightgreen;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 25px;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    opacity: 91%;
+    border: 3px solid #000;
+    border-radius: 2%;
+  
+}
+.login {
+  font-family: “Segoe UI”, arial, sans-serif;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header {
+  background-color: rgb(22, 39, 57);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header div {
+  width: 10%;
+}
+
+.header .heads-logo {
+  background-color: brown;
+  order: 2
+}
+
+.header .heads-info {
+  order: 1
+}
+
+.header .heads-nav {
+  font-family: “Segoe UI”, arial, sans-serif;
+  display: flex;
+  order: 3;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.footer {
+  font-family: “Segoe UI”, arial, sans-serif;
+  background-color: lightslategray;
+  justify-content: space-between;
+  padding: 12px;
+}
+body {
+  background-color: lightcoral;
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  height: 100vh;
+  margin: 0%;
+}
