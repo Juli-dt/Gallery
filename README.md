@@ -2,7 +2,7 @@ Para esta actividad vamos a desarrollar una página web con un diseño estructur
 
 
 
-#Paso a paso
+Paso a paso
 
 Crea un archivo HTML con las etiquetas básicas y con significado semántico correcto
 Añade un header, un main y un footer, dentro del main, incluye una sección para una galería de imágenes
